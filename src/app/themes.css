@@ -1,0 +1,41 @@
+@
+:root {
+	/* Warna dasar latar belakang dan teks */
+	--color-background: 204 100% 98%; /* #E4F1FB - Latar belakang utama yang soft */
+	--color-foreground: 222 10% 20%; /* Warna teks utama (abu gelap / hampir hitam) */
+
+	/* Kartu dan popover (misalnya modal, tooltip) */
+	--color-card: 0 0% 100%; /* Putih - Kartu informasi / komponen */
+	--color-card-foreground: 222 10% 20%; /* Warna teks pada kartu */
+
+	--color-popover: 0 0% 100%; /* Putih - Popup kecil atau dropdown */
+	--color-popover-foreground: 222 10% 20%; /* Teks pada popover */
+
+	/* Warna utama (brand) */
+	--color-primary: 160 35% 80%; /* #CDE7DA - Warna utama branding */
+	--color-primary-foreground: 160 10% 20%; /* Teks kontras untuk tombol utama */
+
+	/* Warna sekunder (tombol kedua / elemen pelengkap) */
+	--color-secondary: 150 25% 90%; /* #DDEEE5 - Sekunder untuk badge atau tag */
+	--color-secondary-foreground: 160 10% 20%; /* Teks pada tombol sekunder */
+
+	/* Warna muted untuk teks atau elemen minor */
+	--color-muted: 0 0% 95%; /* #F5F5F5 - Background atau teks tidak penting */
+	--color-muted-foreground: 0 0% 50%; /* Abu sedang untuk teks muted */
+
+	/* Warna accent (misalnya hover, fokus, dll) */
+	--color-accent: 270 30% 90%; /* #EDE6F3 - Aksen lembut (hover, pilihan) */
+	--color-accent-foreground: 270 10% 25%; /* Teks di atas warna aksen */
+
+	/* Warna untuk aksi merusak seperti hapus */
+	--color-destructive: 0 84% 60%; /* Merah - Untuk tombol hapus atau bahaya */
+	--color-destructive-foreground: 0 0% 100%; /* Putih - Teks di atas destructive */
+
+	/* Border, input, ring */
+	--color-border: 0 0% 90%; /* #EAEAEA - Garis batas elemen */
+	--color-input: 0 0% 90%; /* Border input atau latar input */
+	--color-ring: 160 35% 80%; /* Ring fokus warna brand */
+
+	/* Radius elemen */
+	--radius: 0.75rem; /* Border radius global (misalnya tombol, kartu) */
+}
